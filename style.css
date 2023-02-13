@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .main-margin {
     margin: 0 32px;
 }
@@ -27,6 +31,14 @@
 
 .row-2, .column-2 {
     flex: 2;
+}
+
+.row-3, .column-3 {
+    flex: 3;
+}
+
+.spc-bet {
+    justify-content: space-between;
 }
 
 .blk-border {
