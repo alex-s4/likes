@@ -4,6 +4,5 @@ var likesCount = 0
 
 likeButton.onclick = function() {
     likesCount++;
-    console.log(likesCount);
     likeCountDisplay.innerText = likesCount
 }

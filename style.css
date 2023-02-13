@@ -9,11 +9,19 @@ button:hover {
 }
 
 .main-margin {
-    margin: 0 32px;
+    margin: 0 100px;
 }
 
 .cont-padding {
-    padding: 14px;
+    padding: 16px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-bot {
+    margin-bottom: 30px;
 }
 
 .row {
@@ -23,6 +31,10 @@ button:hover {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.center-aligned {
+    align-items: center;
 }
 
 .row-1, .column-1 {
@@ -49,4 +61,9 @@ button:hover {
     background-color: #fdd963;
     box-shadow: 2px 2px 0 #000;
     padding: 4px 6px;
+    margin-left: 60px;
+}
+
+.user-post {
+    font-size: 1.3em;
 }
