@@ -1,20 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .main-margin {
     margin: 0 32px;
 }
 
+.cont-padding {
+    padding: 14px;
+}
+
 .row {
     display: flex;
 }
 
-.row-1 {
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1, .column-1 {
     flex: 1;
 }
 
-.row-2 {
+.row-2, .column-2 {
     flex: 2;
+}
+
+.blk-border {
+    border: 2px solid #000;
+}
+
+.like-btn {
+    background-color: #fdd963;
+    box-shadow: 2px 2px 0 #000;
+    padding: 4px 6px;
 }
