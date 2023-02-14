@@ -16,6 +16,10 @@ button:hover {
     padding: 18px;
 }
 
+.nav-padding {
+    padding: 8px 40px;
+}
+
 .margin-top {
     margin-top: 30px;
 }
@@ -66,4 +70,16 @@ button:hover {
 
 .med-text {
     font-size: 1.3em;
+}
+
+.larger-text {
+    font-size: 2.5em;
+}
+
+.blk-bkg {
+    background-color: #111;
+}
+
+.white-txt {
+    color: whitesmoke;
 }
