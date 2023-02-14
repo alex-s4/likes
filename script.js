@@ -1,6 +1,6 @@
 const likeButton = document.querySelectorAll(".like-btn")
 const likeCountDisplay = document.querySelectorAll(".like-count")
-var likesCount = [0,0,0]
+var likesCount = [9,0,0]
 
 
 likeButton[0].onclick = function() {
