@@ -13,7 +13,7 @@ button:hover {
 }
 
 .cont-padding {
-    padding: 16px;
+    padding: 18px;
 }
 
 .margin-top {
@@ -64,6 +64,6 @@ button:hover {
     margin-left: 60px;
 }
 
-.user-post {
+.med-text {
     font-size: 1.3em;
 }
